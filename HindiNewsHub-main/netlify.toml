@@ -53,11 +53,3 @@
 
 [context.branch-deploy]
   command = "npm run build"
-
-# Plugin configuration
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-# Edge functions (if needed for advanced routing)
-[edge_functions]
-  # Can be configured later for advanced use cases
