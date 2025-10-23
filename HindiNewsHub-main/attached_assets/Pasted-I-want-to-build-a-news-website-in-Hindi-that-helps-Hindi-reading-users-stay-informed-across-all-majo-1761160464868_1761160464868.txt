@@ -1,0 +1,61 @@
+I want to build a news website in Hindi that helps Hindi-reading users stay informed across all major categories (national, international, regional, entertainment, business, tech, sports, politics, startups, etc.). It should feel traditional & credible (inspired by Dainik Jagran’s trustworthiness) and be optimized for mobile-first web and progressive mobile experience.
+
+Project Name:
+
+AapkaSamachar
+
+Target Audience:
+
+• Hindi-speaking general audience across India (age 16–55)
+• Regional readers who prefer local/state-level coverage
+• Commuters and mobile users who consume news on phones
+
+Core Features and Pages:
+✅ Homepage
+
+• Top hero for breaking news in Hindi (full-width banner)
+• Category tiles (राष्ट्रीय, राज्य, मनोरंजन, व्यापार, तकनीक, खेल, पोलिटिक्स, स्टार्टअप)
+• “Most Read” and “Trending” strips with timestamps
+• Quick links to local editions (state-specific) and latest videos
+
+✅ Category Page
+
+• Paginated list of articles with author, short excerpt (Hindi), tag, and read time
+• Filter by region/state and subcategory (e.g., Technology → Startups)
+• Sticky category nav on mobile for fast switching
+
+✅ Article Page
+
+• Headline (Hindi), subtitle, author, timestamp, state/region tag
+• Inline image support, embedded video, and pull-quotes
+• Social share buttons, reactions (👍/❤️/🔥), and read-time indicator
+• Related articles and “Read next” suggestions
+
+✅ Author / Editor Dashboard (CMS)
+
+• WYSIWYG editor that supports Hindi input, image upload, scheduling, tags, and SEO fields (meta title/description)
+• Drafts, scheduled posts, article version history, and editorial approval workflow
+• Bulk upload for images and CSV import of older articles
+
+✅ User Account & Interaction
+
+• Email/phone OTP-based login + optional Google OAuth
+• Logged-in users can comment, react, bookmark/save articles, and follow topics/authors
+• Comment moderation and report system (for editors)
+
+✅ Notifications & Mobile Experience
+
+• Push notifications for breaking news (PWA/web push)
+• Mobile-first layout, fast-loading AMP-like article pages for low bandwidth
+
+✅ Admin & Monetization Pages
+
+• Ads management (ad slots, CPM estimates) and placements (banner, native, in-article)
+• Subscription management (if converting to premium later) and simple Stripe integration for paid tiers
+• Analytics dashboard: pageviews, top authors, engagement, region heatmap
+
+✅ Other
+
+• Search (Hindi support + transliteration) with autocomplete and filters
+• Sitemap, RSS feeds per category, robots config
+• Accessibility (font sizing, high-contrast mode) and offline reading for saved articles
